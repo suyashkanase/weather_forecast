@@ -34,7 +34,7 @@ def getweather():
     clock.config(text=current_time)
 
 #weather
-    api="https://api.openweathermap.org/data/2.5/onecall?lat="+str(location.latitude)+"&lon="+str(location.longitude)+"&units=metric&exclude=hourly&appid=adb6d85748dc3a4e3940233675aab192"
+    api="https://api.openweathermap.org/data/2.5/onecall?lat="+str(location.latitude)+"&lon="+str(location.longitude)+"add your IP address"
     json_data = requests.get(api).json()
 
 
